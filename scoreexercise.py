@@ -1,0 +1,10 @@
+ScoreT1 = int(input("T1 Score "))
+WeightT1 = int(input("T1 Weight "))
+ScoreT2 = int(input("T2 Score "))
+WeightT2 = int(input("T2 Score "))
+ScoreT3 = int(input("T3 Score "))
+WeightT3 = int(input("T3 Score "))
+ScoreExam = int(input("Exam Score "))
+FinalScore = (ScoreT1/100 * WeightT1) + (ScoreT2/100 * WeightT2) + (ScoreT3/100 * WeightT3) + (ScoreExam/100 * 50)
+
+print(FinalScore)
