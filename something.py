@@ -17,6 +17,10 @@ elif name == "int addition":
 elif name == "range":
     for i in range(10,20):
         print(i)
+
+elif name == "help me please":
+    a1 += 3
+    print(a1)
     
 else: 
     print(float(88.23 * 28.119))
